@@ -1,0 +1,80 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+body{
+     width: 100vw;
+     height: 100vh;
+     background-color: rgb(238, 241, 26);
+
+}
+header{
+     display: flex;
+     align-content: center;
+     justify-content: center;    
+}
+.backgrounds{ 
+     width: 200px;
+     height: 200px;
+     margin: 100px ;
+     border-radius: 30px;
+     
+    /* background: linear-gradient(to top right, rgba(255,102,0,1) 0%, rgba(255,0,0,1) 50%, rgba(244,0,255,1) 100%);
+     */
+     background-image: url("gradient.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     box-shadow: 10px 10px 5px #ff9d00;
+}
+.whitec1{
+     margin: 13%;
+     width: 60%;
+     height: 60%;
+     background-color: transparent;
+     border: 15px white solid;
+     border-radius: 25px;
+}
+.whitec2{
+     margin: 12px;
+     width: 55%;
+     height: 55%;
+     background-color: transparent;
+     border: 15px white solid;
+     border-radius: 50%;
+}
+.round{
+     margin-top : 20px,10px,10px,10px;
+     margin: 5px;
+     float: right;
+     background-color: white;
+     z-index: 4;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+}
+h1{
+     text-align: center;
+     font-size: 55px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-style: normal;
+     text-shadow:5px 5px 5px #d3ab28;
+}
+h6{
+     margin: 50px;
+     padding: 20px;
+     float: right;
+}
+.backgrounds:hover{
+     width: 220px;
+     height: 220px;
+     border: 2px solid black;
+     color: white;
+     background-color: #575252;
+}
+h6:hover{
+     font-size: 25px;
+     border: 3px solid black;
+     color: rgb(0, 0, 0);
+     background-image: linear-gradient(to top right ,yellow,orange,purple,blue);
+     border-radius: 12px;
+}
